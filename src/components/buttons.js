@@ -1,7 +1,7 @@
 function Button({click, operators}) {
   const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
   const eachNumber = numbers.map((number) => {
-    return <button key={number} onKeyUp={click} onClick={click}>{number}</button>;
+    return <button key={number} onClick={click}>{number}</button>;
   });
   
   const eachOperator = operators.map((operator) => {
