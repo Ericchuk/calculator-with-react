@@ -12,7 +12,7 @@ function LandingPage() {
     } else if (e.target.innerText === "=") {
       setScreen(eval(screen));
       // eval is a function that evaluates the string as a javascript code
-    } else if (e.target.innerText === "del") {
+    }else if (e.target.innerText === "DEL") {
       setScreen(screen.slice(0, -1));
        // slice is a function that returns a part of the string, this removes the last character
     }
